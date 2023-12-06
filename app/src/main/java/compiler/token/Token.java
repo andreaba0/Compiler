@@ -24,4 +24,8 @@ public class Token {
 	public String toString() {
 		return "<" + token_type + ","+"r:"+row+",c:"+col+"," + val + ">";
 	}
+
+	public void setType(TokenType token_type) {
+		this.token_type = token_type;
+	}
 }
